@@ -181,7 +181,7 @@ int main() {
     vector<string> result_bfs;
     g.bfs(start, end, result_bfs);
 
-    cout << "bfs: output:\n";
+    cout << "bfs output:\n";
     if (result_bfs.empty()) {
         cout << "No path found\n";
     } else {
@@ -249,5 +249,17 @@ Arad Bucharest
 
  */
 
-// BFS: Arad Sibiu Fagaras Bucharest
-// DFS: 
+/*
+Output:
+bfs output:
+Arad Sibiu Fagaras Bucharest 
+
+dfs output:
+Timisoara Lugoj Mehadia Dobreta Craiova Pitesti Bucharest 
+
+ucs output: 
+Arad Sibiu Rimnicu_Vilcea Pitesti Bucharest
+Total cost: 418
+
+*/
+
