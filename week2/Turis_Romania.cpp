@@ -106,6 +106,8 @@ public:
             curr = parent[curr];
         }
 
+        path.push(start);
+
         while (!path.empty()) {
             result.push_back(path.top());
             path.pop();
@@ -249,19 +251,14 @@ Arad Bucharest
 
  */
 
-/*
-Output:
+/**
 bfs output:
 Arad Sibiu Fagaras Bucharest 
 
 dfs output:
-Sibiu Fagaras Bucharest 
+Arad Sibiu Fagaras Bucharest 
 
 ucs output: 
 Arad Sibiu Rimnicu_Vilcea Pitesti Bucharest
 Total cost: 418
-
-
-*/
-
-
+ */
