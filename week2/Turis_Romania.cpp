@@ -223,8 +223,8 @@ int main() {
 /**
 23
 Arad Zerind 75
-Arad Sibiu 140
 Arad Timisoara 118
+Arad Sibiu 140
 Zerind Oradea 71
 Oradea Sibiu 151
 Timisoara Lugoj 111
@@ -255,11 +255,13 @@ bfs output:
 Arad Sibiu Fagaras Bucharest 
 
 dfs output:
-Timisoara Lugoj Mehadia Dobreta Craiova Pitesti Bucharest 
+Sibiu Fagaras Bucharest 
 
 ucs output: 
 Arad Sibiu Rimnicu_Vilcea Pitesti Bucharest
 Total cost: 418
 
+
 */
+
 
