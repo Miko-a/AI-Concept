@@ -34,6 +34,8 @@ public:
             string frontValue = q.front();
             q.pop();
 
+            // cout << frontValue << ' ';
+
             if (frontValue == end) {
                 found = true;
                 break;
@@ -79,6 +81,8 @@ public:
         while(!stk.empty()) {
             string topValue = stk.top();
             stk.pop();
+
+            // cout << topValue << ' ';
 
             if (topValue == end) {
                 found = true;
@@ -129,6 +133,8 @@ public:
         while (!pq.empty()) {
             auto [currCost, currNode] = pq.top();
             pq.pop();
+
+            // cout << currNode << ' ' << currCost << endl;
 
             if (currNode == end) {
                 found = true;
